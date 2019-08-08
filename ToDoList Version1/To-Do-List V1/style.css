@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(9n5whG.jpg) 100% fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    color:#241818;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#text-primary {
+    color: #cc4f43; 
+}
+
+.inputBoxes {
+    position: relative;
+    width: 500px;
+    padding: 40px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+    text-align: center;
+}
+
+::placeholder {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+
+.inputBoxes input[type = "text"] {
+    display: block;
+    margin: 40px auto;
+    width: 440px;
+    height: 40px;
+    background: none;
+    font-size: 25px;
+    text-align: center;
+    outline: none;
+    border-radius: 15px;
+    border: 5px solid #cc4f43;
+    border-style: inset;
+    transition: 0.9s all;
+    color: wheat;
+}
+
+.inputBoxes input[type = "button"] {
+    background: #cc4f43;
+    width: 440px;
+    height: 40px;
+    outline: none;
+    color: wheat;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px #241818;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px; 
+    transition: 0.9s;   
+}
+
+#description {
+    height: 100px;
+}
+
+.bookTable {
+    position: absolute;
+    top: 70%;
+}
+
+thead {
+    color: wheat;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-style: bold;    
+}
+
+tbody {
+    color: wheat;
+}

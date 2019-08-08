@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDoList App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="ion-compose" id="text-primary"></i> To<span id="text-primary">Do</span>List</h1>
+        </div>
+        <div class="inputBoxes">
+            <input type="text" class="inputBox" placeholder="Enter the Task">
+            <input type="text" id="description" class="inputBox" placeholder="Description(Optional)">
+            <input type="text" class="inputBox" placeholder="Enter the Deadline">
+            <input type="button" value="Add Task" id="Add">
+        </div>
+    </div>
+    <table class="table table-striped mt-5 bookTable">
+        <thead>
+            <tr>
+                <td>Task</td>
+                <td>Description</td>
+                <td>Deadline</td>
+                <td>Completed</td>
+            </tr>
+        </thead>
+        <tbody id="task-list"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
